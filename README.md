@@ -8,8 +8,7 @@ This project is a movie recommendation system built using Python, Jupyter Notebo
 - [Installation](#installation)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - User input for preferences (genre, ratings, etc.)
@@ -46,7 +45,7 @@ Launch the Streamlit app:
 streamlit run app.py
 Open your web browser and go to http://localhost:8501 to access the application.
 
-4. How It Works
+## How It Works
    
 The system uses collaborative filtering/content-based filtering (or any other algorithm you implemented) to generate recommendations.
 User preferences are collected through an input form, and the model returns a list of recommended movies based on the input criteria.
